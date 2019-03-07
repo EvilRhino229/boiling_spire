@@ -1,4 +1,14 @@
 div {
-  color: white;
-  background-color: #FF3800;
+  color: #FF3800;
+  background-color: white;
+  /*all sides*/
+  margin: 5px;
+  /*2 = top/bottom*/
+  /*clockwise from top*/
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://i.kym-cdn.com/entries/icons/original/000/003/629/1282839532626.jpg")
 }
