@@ -5,6 +5,7 @@ class StaticPagesController < ApplicationController
   end
   def contact
   end
-  def sup
+  def send_message
+    ContactMailer.with(params).contact.deliver_now
   end
 end
